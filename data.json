@@ -1,0 +1,22 @@
+{
+  "teachers": [
+    {
+      "avatar_url": "https://www.google.com",
+      "name": "Vinicius de Souto",
+      "birth": 1119312000000,
+      "graduation": "Mestrado",
+      "modality": "P",
+      "area": "Matematica",
+      "created_at": 1596261699030
+    },
+    {
+      "avatar_url": "https://www.google.com",
+      "name": "ads",
+      "birth": 993081600000,
+      "graduation": "Doutorado",
+      "modality": "H",
+      "area": "Tecnologia ",
+      "created_at": 1596261717357
+    }
+  ]
+}
