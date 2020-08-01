@@ -15,7 +15,15 @@ routes.get('/teachers/create', function(req, res) {
 })
 
 routes.post('/teachers', function(req, res) {
-    return res.send("recebido")
+    const keys = Object.keys(req.body)
+
+    for (key of keys) {
+        if (req.body[key] == "") {
+            return res.send('Please, fill all fields')
+        }
+    }
+    
+    return res.send(req.body)
 })
 
 routes.get('/members', function(req, res) {
